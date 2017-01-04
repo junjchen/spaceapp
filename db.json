@@ -1,0 +1,513 @@
+{
+    "views": [
+        {
+            "id": "featured",
+            "_posts": [
+                1,
+                2,
+                3
+            ],
+            "_brand": 1,
+            "_products_from_brand": [
+                1,
+                3,
+                4,
+                5,
+                7,
+                8
+            ],
+            "_products": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "posts": [
+                {
+                    "id": 1,
+                    "title": "温暖人心的的木椅子",
+                    "excerpt": "世界上的一队小小的漂泊者呀，请留下你们的足印在我的文字里",
+                    "thumbnail": "https://unsplash.it/300/150/?random"
+                },
+                {
+                    "id": 2,
+                    "title": "朴素的镜子",
+                    "excerpt": "世界对着它的爱人，把它浩翰的面具揭下了",
+                    "thumbnail": "https://unsplash.it/300/150/?random"
+                },
+                {
+                    "id": 3,
+                    "title": "黑色皮沙发",
+                    "excerpt": "如果你因失去了太阳而流泪，那么你也将失去群星了",
+                    "thumbnail": "https://unsplash.it/300/150/?random"
+                }
+            ],
+            "brands": [
+                {
+                    "id": 1,
+                    "name": "Home Decor",
+                    "image": "https://unsplash.it/375/150/?random",
+                    "products": [
+                        1,
+                        3,
+                        4,
+                        5,
+                        7,
+                        8
+                    ]
+                }
+            ],
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Kubix系列吊灯",
+                    "brand": {
+                        "id": 1,
+                        "name": "Home Decor"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 2,
+                    "name": "Blu Dot Dandy系列公寓沙发",
+                    "brand": {
+                        "id": 1,
+                        "name": "Home Decor"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 3,
+                    "name": "HAY系列托盘咖啡桌",
+                    "brand": {
+                        "id": 1,
+                        "name": "Home Decor"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 4,
+                    "name": "金蜡烛台",
+                    "brand": {
+                        "id": 1,
+                        "name": "Home Decor"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 5,
+                    "name": "Malmo系列沙发",
+                    "brand": {
+                        "id": 2,
+                        "name": "SERAK"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 6,
+                    "name": "简约风格边柜蓝色",
+                    "brand": {
+                        "id": 4,
+                        "name": "IKEA"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 7,
+                    "name": "金字塔系列餐厅扶手椅黑色",
+                    "brand": {
+                        "id": 4,
+                        "name": "IKEA"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 8,
+                    "name": "艺术品与装饰品",
+                    "brand": {
+                        "id": 3,
+                        "name": "Modway"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 9,
+                    "name": "大师版金色椅子",
+                    "brand": {
+                        "id": 6,
+                        "name": "KARTELL"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 10,
+                    "name": "复古风格蛋形人造皮革可旋转座椅",
+                    "brand": {
+                        "id": 5,
+                        "name": "Arteious Gideon"
+                    },
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                }
+            ]
+        },
+        {
+            "id": "discover",
+            "_genres": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "_categories": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name": "日式",
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 2,
+                    "name": "北欧",
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 3,
+                    "name": "中式",
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 4,
+                    "name": "乡村",
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                },
+                {
+                    "id": 5,
+                    "name": "美式",
+                    "thumbnail": "https://unsplash.it/100/100/?random"
+                }
+            ],
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "椅子",
+                    "eng_name": "chairs",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 2,
+                    "name": "沙发",
+                    "eng_name": "sofas",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 3,
+                    "name": "桌子",
+                    "eng_name": "tables",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 4,
+                    "name": "床与床品",
+                    "eng_name": "beds&bedding",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 5,
+                    "name": "灯具",
+                    "eng_name": "lighting",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 6,
+                    "name": "浴室用品",
+                    "eng_name": "bath",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 7,
+                    "name": "餐具",
+                    "eng_name": "dining",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 8,
+                    "name": "艺术品与装饰品",
+                    "eng_name": "art&decor",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 9,
+                    "name": "窗帘与地毯",
+                    "eng_name": "windows&rug",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                },
+                {
+                    "id": 10,
+                    "name": "户外用品",
+                    "eng_name": "outdoors",
+                    "thumbnail": "https://unsplash.it/150/100/?random"
+                }
+            ]
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "name": "Home Decor",
+            "iamge": "https://unsplash.it/375/150/?random"
+        },
+        {
+            "id": 2,
+            "name": "SERAK",
+            "image": "https://unsplash.it/375/150/?random"
+        },
+        {
+            "id": 3,
+            "name": "Modway",
+            "image": "https://unsplash.it/375/150/?random"
+        },
+        {
+            "id": 4,
+            "name": "IKEA",
+            "image": "https://unsplash.it/375/150/?random"
+        },
+        {
+            "id": 5,
+            "name": "Arteious Gideon",
+            "image": "https://unsplash.it/375/150/?random"
+        },
+        {
+            "id": 6,
+            "name": "KARTELL",
+            "image": "https://unsplash.it/375/150/?random"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "温暖人心的的木椅子",
+            "excerpt": "世界上的一队小小的漂泊者呀，请留下你们的足印在我的文字里",
+            "thumbnail": "https://unsplash.it/300/150/?random"
+        },
+        {
+            "id": 2,
+            "title": "朴素的镜子",
+            "excerpt": "世界对着它的爱人，把它浩翰的面具揭下了",
+            "thumbnail": "https://unsplash.it/300/150/?random"
+        },
+        {
+            "id": 3,
+            "title": "黑色皮沙发",
+            "excerpt": "如果你因失去了太阳而流泪，那么你也将失去群星了",
+            "thumbnail": "https://unsplash.it/300/150/?random"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Kubix系列吊灯",
+            "brand": {
+                "id": 1,
+                "name": "Home Decor"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 2,
+            "name": "Blu Dot Dandy系列公寓沙发",
+            "brand": {
+                "id": 1,
+                "name": "Home Decor"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 3,
+            "name": "HAY系列托盘咖啡桌",
+            "brand": {
+                "id": 1,
+                "name": "Home Decor"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 4,
+            "name": "金蜡烛台",
+            "brand": {
+                "id": 1,
+                "name": "Home Decor"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 5,
+            "name": "Malmo系列沙发",
+            "brand": {
+                "id": 2,
+                "name": "SERAK"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 6,
+            "name": "简约风格边柜蓝色",
+            "brand": {
+                "id": 4,
+                "name": "IKEA"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 7,
+            "name": "金字塔系列餐厅扶手椅黑色",
+            "brand": {
+                "id": 4,
+                "name": "IKEA"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 8,
+            "name": "艺术品与装饰品",
+            "brand": {
+                "id": 3,
+                "name": "Modway"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 9,
+            "name": "大师版金色椅子",
+            "brand": {
+                "id": 6,
+                "name": "KARTELL"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 10,
+            "name": "复古风格蛋形人造皮革可旋转座椅",
+            "brand": {
+                "id": 5,
+                "name": "Arteious Gideon"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 11,
+            "name": "水泥材质仙人球盆栽",
+            "brand": {
+                "id": 5,
+                "name": "Arteious Gideon"
+            },
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        }
+    ],
+    "genres": [
+        {
+            "id": 1,
+            "name": "日式",
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 2,
+            "name": "北欧",
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 3,
+            "name": "中式",
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 4,
+            "name": "乡村",
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        },
+        {
+            "id": 5,
+            "name": "美式",
+            "thumbnail": "https://unsplash.it/100/100/?random"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "椅子",
+            "eng_name": "chairs",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 2,
+            "name": "沙发",
+            "eng_name": "sofas",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 3,
+            "name": "桌子",
+            "eng_name": "tables",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 4,
+            "name": "床与床品",
+            "eng_name": "beds&bedding",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 5,
+            "name": "灯具",
+            "eng_name": "lighting",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 6,
+            "name": "浴室用品",
+            "eng_name": "bath",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 7,
+            "name": "餐具",
+            "eng_name": "dining",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 8,
+            "name": "艺术品与装饰品",
+            "eng_name": "art&decor",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 9,
+            "name": "窗帘与地毯",
+            "eng_name": "windows&rug",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        },
+        {
+            "id": 10,
+            "name": "户外用品",
+            "eng_name": "outdoors",
+            "thumbnail": "https://unsplash.it/150/100/?random"
+        }
+    ]
+}

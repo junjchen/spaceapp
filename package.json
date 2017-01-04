@@ -1,0 +1,45 @@
+{
+  "name": "spaceapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "mocha --require react-native-mock/mock.js --require ./app/config/testHelper.js --compilers js:babel-core/register ./app/**/*.test.js",
+    "dev": "node_modules/.bin/json-server --watch db.json"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "normalizr": "^3.2.1",
+    "react": "15.4.1",
+    "react-native": "0.40.0",
+    "react-native-device-info": "^0.9.9",
+    "react-native-scrollable-tab-view": "^0.7.0",
+    "react-native-search-bar": "^2.16.0",
+    "react-native-style-tachyons": "^3.2.1",
+    "react-native-vector-icons": "^4.0.0",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "redux-actions": "^1.2.1",
+    "redux-saga": "^0.14.3",
+    "reselect": "^2.5.4"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^18.0.0",
+    "babel-preset-airbnb": "^2.2.3",
+    "babel-preset-react-native": "1.9.1",
+    "chai": "^3.5.0",
+    "enzyme": "^2.7.1",
+    "jest": "18.1.0",
+    "json-server": "^0.9.5",
+    "mocha": "^3.2.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-native-mock": "^0.3.1",
+    "react-test-renderer": "15.4.1",
+    "remote-redux-devtools": "^0.5.7"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
